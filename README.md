@@ -5,7 +5,7 @@
 
 ## Pré-visualização:
 
-[cineflix](https://cineflix-clone.netlify.app/)
+[cineflix](https://cineflix-clone.vercel.app/)
 
 <div align="center"><img src="assets/images/John-Wick-3.jpg" width="100%">
 </div>
