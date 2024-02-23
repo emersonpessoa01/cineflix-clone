@@ -30,7 +30,14 @@
  * Default font-family 
  */
 
-html { font-family: var(--ff-inter); }
+html { 
+  font-family: var(--ff-inter);
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+
+}
+
 
 /**
  * All heading color 
