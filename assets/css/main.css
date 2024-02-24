@@ -30,6 +30,12 @@
   #REPEAT
 \*-------------------------------------*/
 
+@import url(./scroll-top.css);
+
+/*-------------------------------------*\
+  #BUTTON SCROLL TOP
+\*-------------------------------------*/
+
 /**
  * reused style
  */
@@ -78,7 +84,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
+  z-index: 1000;
   border-bottom: .1px solid var(--off-white);
 }
 .navbar {
