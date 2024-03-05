@@ -31,7 +31,9 @@ const scrollTop = document.querySelector(".scroll-top");
 
 window.onscroll = () => {
   scrollTop.classList.toggle("active", window.scrollY > 0);
+  header.classList.remove("active");
   nav.classList.remove("active");
+  navbarMenuBtn.classList.remove("active");
 };
 
 scrollTop.onclick = () => {
